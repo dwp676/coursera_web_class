@@ -1,0 +1,132 @@
+* {
+    box-sizing:border-box;
+   
+}
+
+.row{
+    width: 100%;
+}
+
+p {
+    border: 1px black solid;
+    width: 33%;
+    margin: 0px 0px 2px 2px;
+    padding: 5px;
+    font-size: 125%;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+   
+}
+section {
+    clear:right;
+    padding: 5px;
+}
+
+#p1 {
+    background-color: pink;
+    clear:right;
+}
+
+#p2 {
+    color: white;
+    background-color: red;
+}
+
+#p3 {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 175%;
+}
+
+
+div {
+    
+    border:1px black solid;
+    background-color: grey;
+    color: black;
+    
+    
+}
+
+
+/**************DESKTOP VIEW***************/
+    
+@media (min-width: 992px) {
+    
+    #div1{
+        width: 32%;
+        float: left; 
+        margin-right: 1%;
+        margin-left: 1%;
+    }  
+    
+    #div2{
+        width:32%;
+        float: left;
+        
+        
+    }
+    
+    #div3{
+        width:32%;
+        float: left;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    
+    }    
+
+/**************TABLET VIEW******************/
+@media (min-width: 768px) and (max-width: 991px) {
+    #div1 {
+        width: 47%;
+        float:left;
+        margin-left: 2%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        
+}
+    
+    #div2 {
+        width: 47%;
+        float: left;
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+
+    #div3 {
+        width: 96%;
+        margin: 2%;
+        margin-top: 20px;
+        clear: left;
+    }
+
+}
+    
+/****************MOBILE VIEW*************************/ 
+@media (max-width: 767px) {
+    #div1 {
+        width:100%;
+        
+    }
+    
+    #div2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    #div3 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+      
+}
+           
+
