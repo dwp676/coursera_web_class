@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border: 2px;
+}
+
+#menu {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size:175%;
+    margin-bottom: 25px;
+}
+
+#menuitem {
+    font-weight: bold;
+    font-size:125%;
+    margin-top:10px;
+}
+
+#brand {
+    font-weight: bold;
+    font-size: 175%;
+}
+
+#divmain {
+    border:1px;
+    background-color: grey;    
+}
+
+
+
+#nav-list {
+    background-color:bisque;
+}
+
+/***Mobile View***/
+@media (max-width:767px){
+    #divmain {
+        margin-left:10%;
+        margin-right:10%;
+    }
+}
